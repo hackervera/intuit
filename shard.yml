@@ -1,0 +1,21 @@
+name: intuit
+version: 0.1.0
+
+authors:
+  - Tyler Gillies <tjgillies@gmail.com>
+
+targets:
+  intuit:
+    main: src/intuit.cr
+
+crystal: 0.20.3+2
+
+license: MIT
+
+dependencies:
+  jq:
+    github: maiha/jq.cr
+    version: 0.3.1
+  try:
+    github: maiha/try.cr
+    version: 0.2.1
